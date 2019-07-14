@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="signup.css" type="text/css">
+        <title> Lifestyle Store </title>
+        <style>
+            .row_style {margin-top: 50px; min-height: 600px; }
+            footer {padding: 10px 0; background-color: #101010; color:#9d9d9d; bottom: 0px; width: 100%; position: fixed; }
+            body {padding-top: 50px; }
+            .a {padding-left: 20px; padding-right: 20px; }
+            .z {padding-top: 15px; }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="lifestyle.html"> Lifestyle Store </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up </a></li>
+                        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row row_style">
+                <div class="col-xs-6 col-xs-offset-3">
+                    <center>
+                        <div class="panel panel-primary">
+                        <div class="panel-heading"> <h2> Sign Up </h2> </div>
+                        <form>
+                            <div class="form-group a z">
+                                <input type="text" class="form-control" name="name" placeholder="Name">
+                            </div>
+                            <div class="form-group a">
+                                <input type="text" class="form-control" name="email" placeholder="Email">
+                            </div>
+                            <div class="form-group a">
+                                <input type="password" class="form-control" name="password" placeholder="Password">
+                            </div>
+                            <div class="form-group a">
+                                <input type="text" class="form-control" name="contact" placeholder="Contact">
+                            </div>
+                            <div class="form-group a">
+                                <input type="text" class="form-control" name="city" placeholder="City">
+                            </div>
+                            <div class="form-group a">
+                                <input type="text" class="form-control" name="address" placeholder="Address">
+                            </div>
+                            <div class="form-group">
+                                <center> <button class="btn btn-primary"> Submit </button> </center>
+                            </div>
+                        </form>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <center>
+                    <p> Copyright © Lifestyle Store. All Rights Reserved. Contact Us: +91 90000 00000. </p>
+                </center>
+            </div>
+        </footer>
+    </body>
+</html>
